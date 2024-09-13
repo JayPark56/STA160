@@ -1,2 +1,4 @@
-# STA160
+# STA160 (2022)
 Asteroid Classification Data
+
+The Kaggle Asteroid Classification Data has been used for predictive modeling (mostly supervised) widely for predicting hazardous nature of as- teroids which is a binary value. The dataset is affected by multicollinearity, outliers, redundancy of features, inconsistent features, and a disbalanced proportion of classification data points. To address the issues aforemen- tioned, we apply data preprocessing methods, use information extraction processes appropriate to the nature of the data set which narrows down to 16 features from 40 features. We use Variance Inflating Factor (VIF) values to identify multicollinearity, and then for information extraction process we use exploration methods like building categorically faceted density plots, building contingency table by binning of continuous data into categorical intervals, apply l2-regularized shrinkage method ridge regression which is robust to multicollinearity. We do a final check for the predictive capability of the processed data by applying appropriate statistical learning models. Our main goal is to identify what makes an asteroid hazardous.
